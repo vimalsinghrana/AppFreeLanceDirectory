@@ -1,0 +1,6 @@
+@AppFreeLanceDirectory_HostAddress = http://localhost:5223
+
+GET {{AppFreeLanceDirectory_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
