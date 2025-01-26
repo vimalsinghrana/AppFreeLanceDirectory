@@ -43,7 +43,7 @@ public class FreelancersController : ControllerBase
 		return CreatedAtAction("GetFreelancer", new { id = user.Id }, user);
 	}
 
-	// PUT: api/freelancers/5
+	// PUT: api/freelancers/5 
 	[HttpPut("{id}")]
 	public async Task<IActionResult> PutFreelancer(int id, User user)
 	{
